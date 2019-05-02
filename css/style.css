@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "givaudan";
+    src: url(../fonts/fedraserifpro.otf) unquote("format('opentype')");
+    font-weight: normal;
+    font-style: normal;
+    
+ }
+
+
+ h1.center-align {
+    font-family: "givaudan";
+    color: #a52a2a;
+}
+
+h5.center-align {
+    font-family: "givaudan";
+    color: rgb(165, 42, 42);
+}
+
+h6.center-align {
+    font-family: "givaudan";
+    color: rgb(165, 42, 42);
+}
+
+img#logo {
+    position: relative; top: 1px;
+}
+
+p {
+    position: relative; left: 40px;
+}
+
+#audioplayer{
+ 
+    text-align:center;
+    background-color: rgba(165, 42, 42);
+  }
+
+span {
+    font-weight: bold;
+}
+
+audio {
+    margin:0 auto;
+   
+    }
+
+audio::-webkit-media-controls-panel {
+    background-color: #a52a2a;
+}
+
